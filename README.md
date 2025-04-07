@@ -7,7 +7,7 @@ threading: This library provides support for creating and managing threads, enab
 queue: This library is used to create a thread-safe queue, which is crucial for coordinating the work of multiple threads. The queue holds the list of ports to be 
 scanned.
 
-<h4>2. port_scan Function</h4>
+<h4>2. <span style="color:red">port_scan</span> Function</h4>
 
 This function takes the target_host and port as input.
 It creates a socket using socket.socket(socket.AF_INET, socket.SOCK_STREAM) (AF_INET for IPv4, SOCK_STREAM for TCP).
