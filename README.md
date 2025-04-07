@@ -1,4 +1,4 @@
-<h2 style="color:red">Explaination</h2>
+<h2><span style="color:red">Explaination</span></h2>
 <br>
 <h3>Imports</h3>
 
