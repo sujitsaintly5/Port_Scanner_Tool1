@@ -2,12 +2,12 @@
 <br>
 <h3>Imports</h3>
 
-<h4>socket:</h4> This library is essential for network operations. It allows us to create sockets, connect to hosts, and send/receive data.
+<h4>1. socket:</h4> This library is essential for network operations. It allows us to create sockets, connect to hosts, and send/receive data.
 threading: This library provides support for creating and managing threads, enabling concurrent execution of the port_scan function.
 queue: This library is used to create a thread-safe queue, which is crucial for coordinating the work of multiple threads. The queue holds the list of ports to be 
 scanned.
 
-<h4>port_scan Function</h4>
+<h4>2. port_scan Function</h4>
 
 This function takes the target_host and port as input.
 It creates a socket using socket.socket(socket.AF_INET, socket.SOCK_STREAM) (AF_INET for IPv4, SOCK_STREAM for TCP).
@@ -16,7 +16,8 @@ sock.connect_ex((target_host, port)) attempts to establish a connection. connect
 If result is 0, it means the connection was successful, and the port is open.
 sock.close() closes the socket.
 The try...except socket.error block is used to handle potential socket errors (e.g., if the host is unreachable).
-worker Function
+
+<h4>3. worker Function</h4>
 
 This function is executed by each thread.
 It takes a queue object (q) as input.
