@@ -1,4 +1,5 @@
-<b>Explaination
+<b>Explaination</b>
+<br>
 Imports
 
 socket: This library is essential for network operations. It allows us to create sockets, connect to hosts, and send/receive data.
