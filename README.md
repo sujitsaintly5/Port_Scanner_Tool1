@@ -1,8 +1,8 @@
 <h2>Explaination</h2>
 <br>
-Imports
+<h3>Imports</h3>
 
-socket: This library is essential for network operations. It allows us to create sockets, connect to hosts, and send/receive data.
+<h4>socket:</h4> This library is essential for network operations. It allows us to create sockets, connect to hosts, and send/receive data.
 threading: This library provides support for creating and managing threads, enabling concurrent execution of the port_scan function.
 queue: This library is used to create a thread-safe queue, which is crucial for coordinating the work of multiple threads. The queue holds the list of ports to be scanned.
 port_scan Function
