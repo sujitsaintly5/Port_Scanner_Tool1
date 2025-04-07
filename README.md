@@ -35,10 +35,12 @@ A simple Python script for performing a basic multi-threaded TCP port scan on a 
 
 ## 🚀 How to Run
 
-1. Save the code as `port_scanner.py`.
+1. Save the code as **`port_scanner.py`**.
 2. Open your terminal or command prompt.
-3. Run the script: `** python port_scanner.py**`
-4. It will ask for Host address 
+3. Run the script: **`python port_scanner.py`**.
+4. It will ask for Host address : **`Enter the target host IP address: xxx.xxx.xxx.xxx`**.
+5. It will ask for start port number : **`Enter the starting port number: xxx`**.
+6. It will ask for end port number : **`Enter the ending port number: 100`**.
 
-   ```bash
-   python port_scanner.py
+   ```For example
+   
